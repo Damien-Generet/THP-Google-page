@@ -1,0 +1,207 @@
+/* -------------------------------------------Code for general style-------------------------------------------------- */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(69,69,69);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*----------------------------------------- HEADER SECTION-------------------------------- */
+
+header{
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    padding-top: 10px; ;
+}
+
+header svg{
+    scale: 1.2;
+}
+header div{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+header p a{
+    text-decoration: none;
+}
+
+
+button.app-google{
+    background-color: rgba(250, 235, 215, 0);
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+
+button.app-google:hover{
+    background-color: rgb(215, 215, 215);
+    border-radius: 50px 50px;
+    cursor: pointer;
+}
+
+button.connect-button{
+    color: white;
+    background-color: #1a73e8;
+    font-weight: 500;
+    min-width: 96px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #4285f4;
+}
+/*---------------------------------------- LOGO ZONE -------------------------------- */
+.logo-container{
+    height: 290px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.logo{
+    scale: 1.2;
+}
+
+
+/* ------------------------------------------Research bar------------------------------- */
+.search-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-area{ 
+    margin: auto;
+    border: 1px solid lightgrey;
+    height: 56px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    overflow: hidden;
+} 
+.search-area svg{
+    scale: 1.3;
+    padding: 10px;
+}
+.btn-svg{
+    background: none;
+    border: none;
+}
+.btn-svg:hover{
+    cursor: pointer;
+}
+
+.search-area:hover{
+    box-shadow: 1px 1px 5px lightgrey;
+}
+
+.search-area textarea{
+    font-size: 16px;
+    width:550px;
+    outline: 0px none transparent;
+    margin-top: 16px;
+    resize: none;
+    vertical-align: center;
+    overflow-x: hidden;
+    border: none;
+}
+.search-area svg{
+    width: 25px;
+}
+
+
+/*--------------------------------- Button under the searchbar ------------------------- */
+
+.btn-lucky-search{
+    padding: 20px;
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.btn-srh{
+    height: 46px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn-srh:hover{
+    cursor: pointer;
+    border: 1px solid rgb(197, 197, 197);
+}
+.btn-srh:active{
+    border-color: rgb(29, 29, 243);
+}
+
+/*-----------------------------------Change language zone ----------------------------- */
+.lang-container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.chng-lang{
+    display: flex;
+}
+
+.chng-lang p{
+    color: rgb(113, 113, 113);
+}
+.chng-lang ul{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    padding-left: 10px;
+}
+
+
+/*---------------------------------- footer zone ------------------------------------ */
+footer{
+    font-size: 18px;
+    position: absolute;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+footer #country{
+    padding-left: 50px;
+}
+
+footer p img{
+    scale: 0.8;
+}
+footer .ul-container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(213, 213, 213);
+    padding-left: 50px;
+    padding-right: 20px;
+}
+footer .ul-container ul{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    padding: 0px;
+}
